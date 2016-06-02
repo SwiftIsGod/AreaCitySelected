@@ -20,10 +20,10 @@ Swift实现封装PickerView，实现数据的三级联动
 例如Item为城市示例代码
 
     struct City: ItemDelegate {
-	var name: String
-	var itemID: Int32
-	var parentID: Int32
-     }
+		var name: String
+		var itemID: Int32
+		var parentID: Int32
+}
 
 1 在ViewController 里面添加引用 ，遵循协议SelectedPickerDelegate   
 
