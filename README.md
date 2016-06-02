@@ -54,7 +54,7 @@ Swift实现封装PickerView，实现数据的三级联动
         
    let tempArray = dataManager.cityArrayWithProvinceID(item.itemID)
         
-        if tempArray.count > 0 {
+    if tempArray.count > 0 {
             return tempArray
         } else {
             return nil
