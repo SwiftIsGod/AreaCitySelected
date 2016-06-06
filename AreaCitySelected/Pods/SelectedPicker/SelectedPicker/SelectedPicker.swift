@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol ItemDelegate {
+public protocol ItemDelegate {
     
     var itemID: Int32 { get }
     var name: String {get set }
@@ -16,7 +16,7 @@ protocol ItemDelegate {
     
 }
 
-protocol SelectedPickerDelegate: class {
+public protocol SelectedPickerDelegate: class {
     
     func loadMidDataArray(item:ItemDelegate) -> [ItemDelegate]?
     func loadLeftDataArray() -> [ItemDelegate]?
@@ -25,7 +25,7 @@ protocol SelectedPickerDelegate: class {
     func selectedPickerArray(itemArray:[ItemDelegate]?);
     
 }
-@IBDesignable class SelectedPicker: UIView {
+@IBDesignable  class SelectedPicker: UIView {
     
     @IBOutlet weak var picker: UIPickerView!
     
