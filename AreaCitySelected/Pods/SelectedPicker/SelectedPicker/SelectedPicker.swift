@@ -25,7 +25,7 @@ public protocol SelectedPickerDelegate: class {
     func selectedPickerArray(itemArray:[ItemDelegate]?);
     
 }
-@IBDesignable  class SelectedPicker: UIView {
+@IBDesignable public class SelectedPicker: UIView {
     
     @IBOutlet weak var picker: UIPickerView!
     
@@ -50,7 +50,7 @@ public protocol SelectedPickerDelegate: class {
         loadViewFromNib()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         
         super.init(coder: aDecoder)
         
@@ -252,12 +252,12 @@ extension SelectedPicker {
 }
 extension SelectedPicker: UIPickerViewDataSource,UIPickerViewDelegate {
     
-    func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
+    public func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
         
         return 3;
     }
     
-    func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+    public func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         
         switch component {
         case 0:
@@ -271,7 +271,7 @@ extension SelectedPicker: UIPickerViewDataSource,UIPickerViewDelegate {
         }
     }
     
-    func pickerView(pickerView: UIPickerView, viewForRow row: Int, forComponent component: Int, reusingView view: UIView?) -> UIView {
+    public func pickerView(pickerView: UIPickerView, viewForRow row: Int, forComponent component: Int, reusingView view: UIView?) -> UIView {
         
         var item: ItemDelegate?
         
@@ -300,11 +300,11 @@ extension SelectedPicker: UIPickerViewDataSource,UIPickerViewDelegate {
         return label
     }
     
-    func pickerView(pickerView: UIPickerView, widthForComponent component: Int) -> CGFloat {
+    public func pickerView(pickerView: UIPickerView, widthForComponent component: Int) -> CGFloat {
         return  bounds.size.width / 3.0
     }
     
-    func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+    public func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         
         switch component {
         case 0:
