@@ -6,7 +6,7 @@ target 'AreaCitySelected' do
   use_frameworks!
   
   # Pods for AreaCitySelected
-  pod 'SelectedPicker', '~> 1.0'
+  pod 'SelectedPicker', '~> 1.5'
 
   target 'AreaCitySelectedTests' do
     inherit! :search_paths
