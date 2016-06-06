@@ -1,0 +1,6 @@
+framework module SelectedPicker {
+  umbrella header "SelectedPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

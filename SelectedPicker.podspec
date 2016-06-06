@@ -5,9 +5,11 @@ Pod::Spec.new do |spec|
   spec.homepage         = 'https://github.com/OneBestWay/AreaCitySelected'
   spec.authors          = { 'Gaojin' => 'github6909@gmail.com' }
   spec.summary          = 'Swift selected picker'
-  spec.source           = { :git => 'https://github.com/OneBestWay/Reachability.git', :tag => 'v1.0' }
+  spec.source           = { :git => 'https://github.com/OneBestWay/AreaCitySelected.git', :tag => 'v1.0' }
   spec.source_files     = 'SelectedPicker/*'
-  spec.framework        = 'SystemConfiguration'
+  spec.framework        = 'UIKit'
   spec.requires_arc     = true
+
+  spec.ios.deployment_target = '8.0'
 end
 

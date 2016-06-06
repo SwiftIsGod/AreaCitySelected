@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SelectedPicker" customModule="AreaCitySelected" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SelectedPicker" customModule="SelectedPicker" customModuleProvider="target">
             <connections>
                 <outlet property="picker" destination="V9o-o2-QWQ" id="AYK-lL-T77"/>
             </connections>
