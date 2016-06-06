@@ -9,8 +9,7 @@
 /* Begin PBXBuildFile section */
 		0F16E79F9B6B53AF63896315 /* Pods_AreaCitySelectedUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 990E554B58E60B09AF0251DB /* Pods_AreaCitySelectedUITests.framework */; };
 		10BEBA60FE11F93315C14ED5 /* Pods_AreaCitySelectedTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D6CCC72B9795BE770A404FA /* Pods_AreaCitySelectedTests.framework */; };
-		472542E91D057C1E00767B35 /* SelectedPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472542E71D057C1E00767B35 /* SelectedPicker.swift */; };
-		472542EA1D057C1E00767B35 /* SelectedPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 472542E81D057C1E00767B35 /* SelectedPicker.xib */; };
+		472542EC1D057E7600767B35 /* SelectedPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472542EB1D057E7600767B35 /* SelectedPicker.swift */; };
 		473703B31CFFDCCD0097AD11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473703B21CFFDCCD0097AD11 /* AppDelegate.swift */; };
 		473703BA1CFFDCCD0097AD11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 473703B91CFFDCCD0097AD11 /* Assets.xcassets */; };
 		473703BD1CFFDCCD0097AD11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 473703BB1CFFDCCD0097AD11 /* LaunchScreen.storyboard */; };
@@ -44,8 +43,7 @@
 /* Begin PBXFileReference section */
 		0AF41BC9048E25E260E9C1F6 /* Pods-AreaCitySelected.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AreaCitySelected.release.xcconfig"; path = "Pods/Target Support Files/Pods-AreaCitySelected/Pods-AreaCitySelected.release.xcconfig"; sourceTree = "<group>"; };
 		2D6CCC72B9795BE770A404FA /* Pods_AreaCitySelectedTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AreaCitySelectedTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		472542E71D057C1E00767B35 /* SelectedPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectedPicker.swift; path = ../SelectedPicker/SelectedPicker.swift; sourceTree = "<group>"; };
-		472542E81D057C1E00767B35 /* SelectedPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SelectedPicker.xib; path = ../SelectedPicker/SelectedPicker.xib; sourceTree = "<group>"; };
+		472542EB1D057E7600767B35 /* SelectedPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectedPicker.swift; path = ../SelectedPicker/SelectedPicker.swift; sourceTree = "<group>"; };
 		473703AF1CFFDCCD0097AD11 /* AreaCitySelected.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AreaCitySelected.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		473703B21CFFDCCD0097AD11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		473703B91CFFDCCD0097AD11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -114,8 +112,7 @@
 		473703A61CFFDCCD0097AD11 = {
 			isa = PBXGroup;
 			children = (
-				472542E71D057C1E00767B35 /* SelectedPicker.swift */,
-				472542E81D057C1E00767B35 /* SelectedPicker.xib */,
+				472542EB1D057E7600767B35 /* SelectedPicker.swift */,
 				473703EE1CFFDD970097AD11 /* libsqlite3.tbd */,
 				473703B11CFFDCCD0097AD11 /* AreaCitySelected */,
 				473703C61CFFDCCD0097AD11 /* AreaCitySelectedTests */,
@@ -296,7 +293,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				473703BD1CFFDCCD0097AD11 /* LaunchScreen.storyboard in Resources */,
-				472542EA1D057C1E00767B35 /* SelectedPicker.xib in Resources */,
 				473703EB1CFFDD120097AD11 /* Main.storyboard in Resources */,
 				473703E31CFFDCEA0097AD11 /* CityArea.db in Resources */,
 				473703BA1CFFDCCD0097AD11 /* Assets.xcassets in Resources */,
@@ -449,7 +445,7 @@
 			files = (
 				473703E51CFFDCFD0097AD11 /* ViewController.swift in Sources */,
 				473703B31CFFDCCD0097AD11 /* AppDelegate.swift in Sources */,
-				472542E91D057C1E00767B35 /* SelectedPicker.swift in Sources */,
+				472542EC1D057E7600767B35 /* SelectedPicker.swift in Sources */,
 				473703E21CFFDCEA0097AD11 /* AreaCityDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

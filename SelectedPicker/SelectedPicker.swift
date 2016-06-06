@@ -129,7 +129,7 @@ extension SelectedPicker {
         
     }
     
-    func leftItemDataSource() {
+    public  func leftItemDataSource() {
         
         for index in 0 ..< selectedArray.count {
             

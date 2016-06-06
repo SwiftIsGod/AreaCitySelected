@@ -41,7 +41,7 @@ public protocol SelectedPickerDelegate: class {
     
     var rowTitleAttributes: Dictionary<String,AnyObject>?
     
-    weak var delegate: SelectedPickerDelegate?
+    public weak var delegate: SelectedPickerDelegate?
     
     override init(frame: CGRect) {
         
