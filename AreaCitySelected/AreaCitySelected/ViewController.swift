@@ -9,7 +9,7 @@
 import UIKit
 import SelectedPicker
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,SelectedPickerDelegate {
 
     @IBOutlet weak var picker: SelectedPicker!
     
@@ -19,7 +19,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+
         picker.delegate = self
+        
         
 //        let  city1 = City(name: "台湾", itemID: 710000, parentID: 0)
 //        let  city2 = City(name: "台南市", itemID: 710300, parentID: 710000)
@@ -40,7 +42,7 @@ class ViewController: UIViewController {
 
 }
 
-extension ViewController: SelectedPickerDelegate {
+extension ViewController {
     
     func loadRightDataArray(item: ItemDelegate) -> [ItemDelegate]? {
         

@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0F16E79F9B6B53AF63896315 /* Pods_AreaCitySelectedUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 990E554B58E60B09AF0251DB /* Pods_AreaCitySelectedUITests.framework */; };
 		10BEBA60FE11F93315C14ED5 /* Pods_AreaCitySelectedTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D6CCC72B9795BE770A404FA /* Pods_AreaCitySelectedTests.framework */; };
-		472542EC1D057E7600767B35 /* SelectedPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472542EB1D057E7600767B35 /* SelectedPicker.swift */; };
 		473703B31CFFDCCD0097AD11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473703B21CFFDCCD0097AD11 /* AppDelegate.swift */; };
 		473703BA1CFFDCCD0097AD11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 473703B91CFFDCCD0097AD11 /* Assets.xcassets */; };
 		473703BD1CFFDCCD0097AD11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 473703BB1CFFDCCD0097AD11 /* LaunchScreen.storyboard */; };
@@ -20,6 +19,7 @@
 		473703E51CFFDCFD0097AD11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473703E41CFFDCFD0097AD11 /* ViewController.swift */; };
 		473703EB1CFFDD120097AD11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 473703EA1CFFDD120097AD11 /* Main.storyboard */; };
 		473703EF1CFFDD970097AD11 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 473703EE1CFFDD970097AD11 /* libsqlite3.tbd */; };
+		473B0F1D1D05897000F71552 /* SelectedPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473B0F1C1D05897000F71552 /* SelectedPicker.swift */; };
 		48FC1A96D39DF36CD493927B /* Pods_AreaCitySelected.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF4E26207307625CB6041DD /* Pods_AreaCitySelected.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,7 +43,6 @@
 /* Begin PBXFileReference section */
 		0AF41BC9048E25E260E9C1F6 /* Pods-AreaCitySelected.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AreaCitySelected.release.xcconfig"; path = "Pods/Target Support Files/Pods-AreaCitySelected/Pods-AreaCitySelected.release.xcconfig"; sourceTree = "<group>"; };
 		2D6CCC72B9795BE770A404FA /* Pods_AreaCitySelectedTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AreaCitySelectedTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		472542EB1D057E7600767B35 /* SelectedPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectedPicker.swift; path = ../SelectedPicker/SelectedPicker.swift; sourceTree = "<group>"; };
 		473703AF1CFFDCCD0097AD11 /* AreaCitySelected.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AreaCitySelected.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		473703B21CFFDCCD0097AD11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		473703B91CFFDCCD0097AD11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -61,6 +60,7 @@
 		473703EA1CFFDD120097AD11 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		473703EE1CFFDD970097AD11 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		473703F01CFFDDC40097AD11 /* AreaCitySelected-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AreaCitySelected-Bridging-Header.h"; sourceTree = "<group>"; };
+		473B0F1C1D05897000F71552 /* SelectedPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectedPicker.swift; path = ../SelectedPicker/SelectedPicker.swift; sourceTree = "<group>"; };
 		7B6119573E64AE3D8B6680D4 /* Pods-AreaCitySelectedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AreaCitySelectedTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AreaCitySelectedTests/Pods-AreaCitySelectedTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7DE69B7F22FB3DA7AD9B9FB4 /* Pods-AreaCitySelectedUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AreaCitySelectedUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AreaCitySelectedUITests/Pods-AreaCitySelectedUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8CF86A77622B83AECC3C735C /* Pods-AreaCitySelectedUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AreaCitySelectedUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AreaCitySelectedUITests/Pods-AreaCitySelectedUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -112,7 +112,7 @@
 		473703A61CFFDCCD0097AD11 = {
 			isa = PBXGroup;
 			children = (
-				472542EB1D057E7600767B35 /* SelectedPicker.swift */,
+				473B0F1C1D05897000F71552 /* SelectedPicker.swift */,
 				473703EE1CFFDD970097AD11 /* libsqlite3.tbd */,
 				473703B11CFFDCCD0097AD11 /* AreaCitySelected */,
 				473703C61CFFDCCD0097AD11 /* AreaCitySelectedTests */,
@@ -445,7 +445,7 @@
 			files = (
 				473703E51CFFDCFD0097AD11 /* ViewController.swift in Sources */,
 				473703B31CFFDCCD0097AD11 /* AppDelegate.swift in Sources */,
-				472542EC1D057E7600767B35 /* SelectedPicker.swift in Sources */,
+				473B0F1D1D05897000F71552 /* SelectedPicker.swift in Sources */,
 				473703E21CFFDCEA0097AD11 /* AreaCityDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
