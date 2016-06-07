@@ -10,8 +10,19 @@ Swift实现封装PickerView，实现数据的三级联动
 1 支持在Storyboard中直接使用
 
 2 支持代码初始化
-    
-用Storyboard使用方法：
+ 
+## 下载:
+
+1  用cocoapods 安装
+
+Podfile中添加如下代码：
+
+     use_frameworks!
+     pod 'SelectedPicker', '~> 1.5'
+   
+2 直接下载工程项目，把SelectedPicker文件下的文件拖曳到你自己的工程目录中
+
+## 用Storyboard使用方法：
 
 准备工作
 
